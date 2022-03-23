@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b1b1b;
+}
+a {
+    text-decoration: none;
+
+}
+main {
+   max-width: 100%;
+   height: 350vh;
+}
+header {
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    background-color: rgb(250, 248, 244);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+header h1,span {
+    font-size: 25px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 18px;
+    padding: 20px;
+}
+.scr1 {
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    height: 100vh;
+    background-image: url(/PousadaSecreta/imagens/pousada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt1 {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 94, 49,0.5);
+    flex-direction: column;
+    border: 2px solid white;
+}
+.txt1 h1 {
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+.txt1 h2 {
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+.txt1 h1,h2 {
+    color:white
+}
+.rooms {
+    position:relative;
+    width: 100%;
+    max-height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rooms h1 {
+    font-size: 40px;
+    font-style: italic;
+    margin: 100px;
+    color: #1b1b1b;
+}
+.rooms p {
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 350px;
+    box-sizing: border-box;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(192, 190, 190);
+    font-size: 25px;
+    flex-direction: column;
+    border-bottom: 2px solid green;
+}
+.img1, .img2 , .img3 {
+    position: relative;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    background-color: red;
+    flex-direction: column;
+}
+.img1 {
+    background-image: url(/PousadaSecreta/imagens/quarto\ 1.jpg);
+}
+.img2 {
+    background-image: url(/PousadaSecreta/imagens/quarto\ 2.jpg);
+}
+.img3 {
+    background-image: url(/PousadaSecreta/imagens/quarto\ 3.jpg);
+}
+
+.card h3 {
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.root {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+
+}
+.column1 , .column2 {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.cartoes .card {
+    position: relative;
+    height: 150px;
+    width: 700px;
+    border: none;
+    margin: 20px 0 0 40px;
+    display: -webkit-box;
+    
+}
+.img4,.img5,.img6,.img7 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+}
+ .img4 {
+    background-image: url(/PousadaSecreta/imagens/quarto\ 1.jpg);
+}
+ .img5 {
+    background-image: url(/PousadaSecreta/imagens/quarto\ 2.jpg);
+}
+ .img6 {
+    background-image: url(/PousadaSecreta/imagens/quarto\ 3.jpg);
+}
+ .img7 {
+    background-image: url(/PousadaSecreta/imagens/quarto\ 1.jpg);
+}
+
+.cartoes p {
+    align-items: center;
+    display: flex;
+}
+.root h1 {
+    font-style: italic;
+    font-size: 40px;
+    margin: 20px 0;
+}
+footer {
+    color: #1b1b1b;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(29, 170, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(3, 175, 3);
+}
+.contact h2 {
+    color: #1b1b1b;
+    font-size: 20px;
+    font-style: italic;
+    margin-right: 100px
+}
+.local {
+    margin: 0 80px
+}
